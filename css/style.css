@@ -1,6 +1,6 @@
 body {
   background-color: rgb(236, 238, 241);
-  font-family: "Avenir", Roboto, "Helvetica Neue", Helvetica, Arial;
+  font-family: "Avenir", Roboto, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: normal;
   min-height: 100vh;
 }
