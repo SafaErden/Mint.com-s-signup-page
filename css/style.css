@@ -1,6 +1,6 @@
 body {
   background-color: rgb(236, 238, 241);
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
+  font-family: "Avenir", Roboto, "Helvetica Neue", Helvetica, Arial;
   font-weight: normal;
   min-height: 100vh;
 }
@@ -118,7 +118,6 @@ footer ul li {
   display: inline;
   padding: 0 10px 0 10px;
 }
-
 
 ul.sub-logo-list li {
   display: inline-block;
@@ -262,7 +261,6 @@ a.learn-more {
   background: #0077c5;
   border-radius: 4px;
   border: 1px solid #4c4c4c;
-  height: 35px;
   color: white;
   cursor: pointer;
   font-weight: normal;
@@ -385,6 +383,10 @@ footer {
   padding: 20px 5px 20px 5px;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 .form-info a {
   text-decoration: none;
   color: #0077c5;
@@ -393,10 +395,6 @@ footer {
 .form-footer a {
   text-decoration: none;
   color: #0077c5;
-}
-
-footer a {
-  text-decoration: none;
 }
 
 .footer-ul {
@@ -492,10 +490,6 @@ footer a {
   display: none;
 }
 
-.modal-checkbox input:checked ~ .checkmark::after {
-  display: block;
-}
-
 .modal-checkbox .checkmark::after {
   left: 4px;
   top: 1px;
@@ -504,4 +498,8 @@ footer a {
   border: solid #43a047bf;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
+}
+
+.modal-checkbox input:checked ~ .checkmark::after {
+  display: block;
 }
