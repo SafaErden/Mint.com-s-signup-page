@@ -49,7 +49,7 @@ header.form-header-content {
 }
 
 .nav-column {
-  margin: 5px 0px 10px 5px;
+  margin: 5px 0 10px 5px;
 }
 
 .have-account {
@@ -108,7 +108,7 @@ header.form-header-content {
   text-decoration: none;
 }
 .sub-logo-list {
-  padding-left: 0px;
+  padding-left: 0;
 }
 ul.sub-logo-list li {
   display: inline-block;
@@ -149,7 +149,7 @@ ul.sub-logo-list li {
   width: 23px;
   height: 23px;
   display: block;
-  background-position: 0px 26px;
+  background-position: 0 26px;
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
@@ -168,7 +168,7 @@ section.main-form-box {
 
 .form-content {
   width: 380px;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: auto;
   text-align: center;
   border: 1px solid #cacaca;
@@ -194,7 +194,7 @@ a.learn-more {
 
 .input-set {
   text-align: left;
-  border: 0px;
+  border: 0;
   position: relative;
 }
 
@@ -222,7 +222,7 @@ a.learn-more {
   padding-left: 8px;
   padding-right: 6px;
   border: 1px solid #d8d8d8;
-  color: #000000;
+  color: #000;
   outline: none;
   font-size: 1.2em;
   border-radius: 3px;
@@ -253,7 +253,7 @@ a.learn-more {
   width: 320px;
   height: 44px;
   font-size: 16px;
-  margin: 20px 20px 0px 20px;
+  margin: 20px 20px 0 20px;
   position: relative;
 }
 .create-account span {
@@ -311,7 +311,7 @@ button#PrivacyBtn {
   border-radius: 10px;
   font-family: inherit;
   z-index: 99999;
-  box-shadow: 0px 0px 20px #babec5;
+  box-shadow: 0 0 20px #babec5;
   box-sizing: border-box;
 }
 
@@ -331,7 +331,7 @@ hr {
 }
 
 .close {
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -378,11 +378,11 @@ footer a {
 }
 .footer-ul {
   display: block;
-  padding: 0px;
+  padding: 0;
 }
 footer ul li {
   display: inline;
-  padding: 0px 10px 0px 10px;
+  padding: 0 10px 0 10px;
 }
 .footer-copyright {
   margin-top: 3px;
@@ -421,7 +421,7 @@ footer ul li {
   padding-left: 28px;
 }
 .modal-description {
-  margin: 0px 10px 30px 38px;
+  margin: 0 10px 30px 38px;
   font-size: 14px;
   max-width: 600px;
   color: #393a3d;
@@ -433,7 +433,7 @@ footer ul li {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   cursor: pointer;
   font-size: 22px;
   user-select: none;
@@ -458,8 +458,7 @@ footer ul li {
 }
 
 .modal-checkbox input:checked ~ .checkmark {
-  background-color: #ffffff;
-
+  background-color: #fff;
 }
 
 .checkmark:after {
