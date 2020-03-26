@@ -2,7 +2,7 @@
 
 A replica of Mint.com’s signup page
 
-![screenshot](./screenshot.jpg)
+![screenshot](./screenshot.gif)
 
 HTML & CSS Mint.com’s signup page replica
 
