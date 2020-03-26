@@ -424,8 +424,11 @@ footer ul li {
   font-size: 18px;
   line-height: 1.5;
 }
+.modal-all-description {
+  padding-left: 28px;
+}
 .modal-description {
-  margin: 0px 10px 30px 28px;
+  margin: 0px 10px 30px 38px;
   font-size: 14px;
   max-width: 600px;
   color: #393a3d;
@@ -438,7 +441,7 @@ footer ul li {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
   cursor: pointer;
   font-size: 22px;
   -webkit-user-select: none;
@@ -459,18 +462,19 @@ footer ul li {
 /* Create a custom checkbox */
 .checkmark {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5px;
+  left: 5px;
   height: 16px;
   width: 16px;
   background-color: #fff;
-  border: 1px solid #4f9f41;
+  border: 1px solid #4f9f418c;
   border-radius: 3px;
 }
 
 /* When the checkbox is checked, add a blue background */
 .modal-checkbox input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: #ffffff;
+
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -487,12 +491,12 @@ footer ul li {
 
 /* Style the checkmark/indicator */
 .modal-checkbox .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
+  left: 4px;
+  top: 1px;
+  width: 3px;
+  height: 9px;
+  border: solid #43a047bf;
+  border-width: 0 2px 2px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
