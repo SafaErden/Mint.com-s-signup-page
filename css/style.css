@@ -436,9 +436,6 @@ footer ul li {
   margin-bottom: 0px;
   cursor: pointer;
   font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .modal-checkbox input {
@@ -482,7 +479,5 @@ footer ul li {
   height: 9px;
   border: solid #43a047bf;
   border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
