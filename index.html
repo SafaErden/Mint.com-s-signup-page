@@ -20,13 +20,13 @@
         <button type="button" name="signin" class="btn-signin"><span class="img-locked"></span>Sign In</button>
       </div>
     </nav>
-    <header>
+    <header class="logo-header">
       <div class="logo-container">
         <a href="#" class="logo"></a>
       </div>
     </header>
-    <section>
-      <header>
+    <section class="sub-logo-container">
+      <header class="sub-logos-header">
         <div class="sub-logo-container">
           <ul class="sub-logo-list">
             <li class="logo1-1"></li>
@@ -38,21 +38,27 @@
           </ul>
         </div>
       </header>
+    </section>
+    <section class="main-form-box">
       <div class="form-content">
+      <header class="form-header-content">
         <h1>Create an Intuit account</h1>
-        <h3>One account for everything Intuit.<a class="learn-more" href="#">Learn More</a></h3>
+        <h3>One account for everything Intuit, including Mint.<br /><a class="learn-more" href="#">Learn More</a></h3>
+      </header>
         <form action="#" class="signup-form">
           <fieldset class="input-set">
             <label class="label" for="">Email address</label>
             <input class="input-field" type="mail">
           </fieldset>
           <fieldset class="input-set">
-            <label class="label" for="">Phone (recommended)</label>
-            <input class="input-field" type="mail">
+            <label class="label" for="">Phone <span class="recommended-text">(recommended)</span></label>
+            <input class="input-field" type="phone">
+            <span class="form-note">Standard call, messaging or data rates may apply.</span>
           </fieldset>
           <fieldset class="input-set">
             <label class="label" for="">Password</label>
-            <input class="input-field" type="mail">
+            <input class="input-field" type="password">
+            <span class="password-lock"></span>
           </fieldset>
           <fieldset class="button-set">
             <button class="create-account">Create Account</button>

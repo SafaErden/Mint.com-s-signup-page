@@ -3,11 +3,42 @@ body{
     font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
-header{
+
+h1 {
+  color: #4C4C4C;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 24px;
+  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  color: #4C4C4C;
+  font-weight: normal;
+  font-size: 14px;
+  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header.logo-header {
     display: flex;
     justify-content: center;
     align-items: center;
     height:50px;
+}
+
+header.sub-logos-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+}
+
+header.form-header-content {
+    text-align: center;
+    padding-bottom: 20px;
+    display: block;
+    position: relative;
+    top: 10px;
 }
 
 .nav-container {
@@ -126,20 +157,41 @@ ul.sub-logo-list li {
     background-image: url("../media/logos.png");
     text-decoration: none;
 }
+
+section.main-form-box {
+    margin-top: -4px;
+}
+
 .form-content{
     width:380px;
     background-color: #ffffff;
-    margin:10px auto 10px auto;
+    margin:auto;
     text-align: center;
+    border: 1px solid #cacaca;
 }
-.label{
-    width:100%;
+
+a.learn-more {
+    color: #0077C5;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.label {
     text-align: left;
-    display:block;
+    display: block;
+    font-weight: 700;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 6px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
+
 .input-set{
     text-align: left;
     border:0px;
+    position: relative;
 }
 .button-set{
     border:0px;
@@ -157,6 +209,47 @@ ul.sub-logo-list li {
     margin-right: 30px;
     margin-top:-5px;
 }
-.input-field{
-    display:block;
+
+.recommended-text {
+  font-weight: normal;
+}
+
+.form-note {
+  font-family: inherit;
+  font-weight: 700;
+  display: block;
+  min-height: 20px;
+  padding: 5px 0;
+  font-size: 10px;
+  color: #444;
+  margin-left: 15px;
+}
+
+.input-field {
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 305px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 6px;
+    border: 1px solid #d8d8d8;
+    color: #000000;
+    outline: none;
+    font-size: 1.2em;
+    border-radius: 3px;
+    line-height: 1.3em;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.password-lock {
+  background: url(../media/unlocked.png) no-repeat 0% 50% / 21px 21px;
+  width: 33px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  right: 24px;
+  top: 39px;
+  bottom: 1px;
 }
