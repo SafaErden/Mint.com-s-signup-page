@@ -1,6 +1,6 @@
 body {
   background-color: rgb(236, 238, 241);
-  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
   font-weight: normal;
   min-height: 100vh;
 }
@@ -17,8 +17,8 @@ h3 {
   font-weight: normal;
   font-size: 14px;
 }
-header{
-    margin-top:18px;
+header {
+  margin-top: 18px;
 }
 header.logo-header {
   display: flex;
@@ -107,8 +107,8 @@ header.form-header-content {
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
-.sub-logo-list{
-    padding-inline-start:0px;
+.sub-logo-list {
+  padding-inline-start: 0px;
 }
 ul.sub-logo-list li {
   display: inline-block;
@@ -243,44 +243,44 @@ a.learn-more {
 }
 
 .create-account {
-    background: #0077c5;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    height: 35px;
-    color: white;
-    cursor: pointer;
-    font-weight: normal;
-    width:320px;
-    height:44px;
-    font-size: 16px;
-    margin: 20px 20px 0px 20px;
-    position:relative;
-  }
-.create-account span{
-    background: url(../media/locked.png) no-repeat 0% 50% /13px 16px;
-    position: absolute;
-    right: 214px;
-    top: 9px;
-    bottom: 1px;
-    width: 20px;
-    height: 21px;
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  height: 35px;
+  color: white;
+  cursor: pointer;
+  font-weight: normal;
+  width: 320px;
+  height: 44px;
+  font-size: 16px;
+  margin: 20px 20px 0px 20px;
+  position: relative;
+}
+.create-account span {
+  background: url(../media/locked.png) no-repeat 0% 50% /13px 16px;
+  position: absolute;
+  right: 214px;
+  top: 9px;
+  bottom: 1px;
+  width: 20px;
+  height: 21px;
 }
 
 button#PrivacyBtn {
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #6B6C72;
-    border-radius: 3px;
-    z-index: 100;
-    cursor: pointer;
-    position: fixed;
-    bottom: 0;
-    right: 5%;
-    vertical-align: middle;
-    color: #fff;
-    padding: 12px 14px;
-    border: 0;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #6b6c72;
+  border-radius: 3px;
+  z-index: 100;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0;
+  right: 5%;
+  vertical-align: middle;
+  color: #fff;
+  padding: 12px 14px;
+  border: 0;
 }
 
 .modal-header {
@@ -316,11 +316,11 @@ button#PrivacyBtn {
 }
 
 .modal-sub-header {
-    color: #393a3d;
-    font-size: 16px;
-    text-align: center;
-    font-weight: 400;
-    letter-spacing: 0;
+  color: #393a3d;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 hr {
@@ -344,57 +344,57 @@ hr {
   cursor: pointer;
 }
 
-.form-info{
-    display: block;
-    margin:30px auto 30px auto;
-    font-size: 12px;
-    font-style: italic;
-    color: #646464;
-    line-height: 1.5rem;
+.form-info {
+  display: block;
+  margin: 30px auto 30px auto;
+  font-size: 12px;
+  font-style: italic;
+  color: #646464;
+  line-height: 1.5rem;
 }
-.form-info a{
-    text-decoration: none;
-    color:#0077c5;
+.form-info a {
+  text-decoration: none;
+  color: #0077c5;
 }
-.form-footer{
-    text-align: center;
-    font-size: 10px;
-    color: #8d9096;
-    background-color: #ECEEF1;
-    padding:20px 5px 20px 5px;
+.form-footer {
+  text-align: center;
+  font-size: 10px;
+  color: #8d9096;
+  background-color: #eceef1;
+  padding: 20px 5px 20px 5px;
 }
-.form-footer a{
-    text-decoration: none;
-    color:#0077c5;
+.form-footer a {
+  text-decoration: none;
+  color: #0077c5;
 }
-footer{
-    /*later position will be solved */
-    text-align: center;
-    color: #303030;
-    font-size: 13px;
-    padding:20px 5px 20px 5px;
+footer {
+  /*later position will be solved */
+  text-align: center;
+  color: #303030;
+  font-size: 13px;
+  padding: 20px 5px 20px 5px;
 }
-footer a{
-    text-decoration: none;
+footer a {
+  text-decoration: none;
 }
-.footer-ul{
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 10px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 0px;
-    padding: 0px;
+.footer-ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 10px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  padding: 0px;
 }
-footer ul li{
-    display: inline;
-    padding:0px 10px 0px 10px;
+footer ul li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
 }
-.footer-copyright{
-    margin-top:3px;
+.footer-copyright {
+  margin-top: 3px;
 }
-.save-button{
+.save-button {
   box-shadow: none;
   display: block;
   border-radius: 4px;
@@ -406,7 +406,7 @@ footer ul li{
   height: 36px;
   font-size: 1rem;
 }
-.dismiss-button{
+.dismiss-button {
   box-shadow: none;
   display: block;
   border-radius: 4px;
@@ -419,16 +419,81 @@ footer ul li{
   font-size: 1rem;
 }
 
-.third-party{
+.third-party {
   color: #bababa;
   font-size: 18px;
   line-height: 1.5;
 }
-.modal-description{
-  margin:0px 10px 30px 28px;
+.modal-description {
+  margin: 0px 10px 30px 28px;
   font-size: 14px;
   max-width: 600px;
-  color: #393a3d;    
+  color: #393a3d;
   line-height: 1.5;
   text-align: left;
+}
+
+/* The container */
+.modal-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.modal-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  border: 1px solid #4f9f41;
+  border-radius: 3px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.modal-checkbox input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.modal-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.modal-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
