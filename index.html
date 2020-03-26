@@ -16,30 +16,35 @@
       <button id="PrivacyBtn" class="privacy-button">Pivacy Settings</button>
 
       <div id="ModalBox" class="modal">
-
         <div class="modal-content">
           <header class="modal-header">Privacy Settings</header>
-          <div class="modal-sub-header">We provide you with a way to opt-out of advertising activities on our websites</div>
-      	<hr>
-        <div class="modal-all-description">
-          <label class="modal-checkbox">
-            <input type="checkbox" name="modal-label-checkbox" checked>
-            <span class="checkmark"></span>
-            <label for="checkbox-label" class="third-party">Third Party Advertising Vendors</label>
-          </label>
-          <div class="modal-description">
-            We leverage outside service providers who assist us with our marketing and advertising activities. Note: by opting-out of this tracking, you may still see Intuit advertisements, but they may not be tailored to your interests.
+          <div class="modal-sub-header">
+            We provide you with a way to opt-out of advertising activities on
+            our websites
+          </div>
+          <hr />
+          <div class="modal-all-description">
+            <label class="modal-checkbox">
+              <input type="checkbox" name="modal-label-checkbox" checked />
+              <span class="checkmark"></span>
+              <span class="third-party">Third Party Advertising Vendors</span>
+            </label>
+            <div class="modal-description">
+              We leverage outside service providers who assist us with our
+              marketing and advertising activities. Note: by opting-out of this
+              tracking, you may still see Intuit advertisements, but they may
+              not be tailored to your interests.
+            </div>
+          </div>
+          <div class="modal-buttons">
+            <span class="close">
+              <button class="save-button">Save</button>
+            </span>
+            <span class="close2">
+              <button class="dismiss-button">Dismiss</button>
+            </span>
           </div>
         </div>
-        <div class="modal-buttons">
-          <span class="close">
-        <button class="save-button">Save</button>
-        </span>
-          <span class="close2">
-      	<button class="dismiss-button">Dismiss</button>
-      	</span>
-        </div>
-      	</div>
       </div>
 
       <nav class="nav-container">
@@ -60,7 +65,7 @@
           <a href="#" class="logo"></a>
         </div>
       </header>
-      <section class="sub-logo-container">
+      <div class="sub-logo-container">
         <header class="sub-logos-header">
           <div class="sub-logo-container">
             <ul class="sub-logo-list">
@@ -73,7 +78,7 @@
             </ul>
           </div>
         </header>
-      </section>
+      </div>
       <section class="main-form-box">
         <div class="form-content">
           <header class="form-header-content">
@@ -88,21 +93,21 @@
           </header>
           <form action="#" class="signup-form">
             <fieldset class="input-set">
-              <label class="label" for="">Email address</label>
-              <input class="input-field" type="mail" />
+              <label class="label">Email address</label>
+              <input class="input-field" type="email" />
             </fieldset>
             <fieldset class="input-set">
-              <label class="label" for=""
-                >Phone
-                <span class="recommended-text">(recommended)</span></label
-              >
-              <input class="input-field" type="phone" />
+              <label class="label">
+                Phone
+                <span class="recommended-text">(recommended)</span>
+              </label>
+              <input class="input-field" type="tel" />
               <span class="form-note"
                 >Standard call, messaging or data rates may apply.</span
               >
             </fieldset>
             <fieldset class="input-set">
-              <label class="label" for="">Password</label>
+              <label class="label">Password</label>
               <input class="input-field" type="password" />
               <span class="password-lock"></span>
             </fieldset>
@@ -137,6 +142,6 @@
         </div>
       </footer>
     </main>
+    <script src="./js/modalbox.js"></script>
   </body>
-      <script src="./js/modalbox.js"></script>
 </html>

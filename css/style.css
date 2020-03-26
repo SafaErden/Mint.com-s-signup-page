@@ -108,7 +108,7 @@ header.form-header-content {
   text-decoration: none;
 }
 .sub-logo-list {
-  padding-inline-start: 0px;
+  padding-left: 0px;
 }
 ul.sub-logo-list li {
   display: inline-block;
@@ -368,7 +368,6 @@ hr {
   color: #0077c5;
 }
 footer {
-  /*later position will be solved */
   text-align: center;
   color: #303030;
   font-size: 13px;
@@ -379,12 +378,6 @@ footer a {
 }
 .footer-ul {
   display: block;
-  list-style-type: disc;
-  margin-block-start: 10px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
   padding: 0px;
 }
 footer ul li {
@@ -436,7 +429,6 @@ footer ul li {
   text-align: left;
 }
 
-/* The container */
 .modal-checkbox {
   display: block;
   position: relative;
@@ -449,8 +441,6 @@ footer ul li {
   -ms-user-select: none;
   user-select: none;
 }
-
-/* Hide the browser's default checkbox */
 .modal-checkbox input {
   position: absolute;
   opacity: 0;
@@ -459,7 +449,6 @@ footer ul li {
   width: 0;
 }
 
-/* Create a custom checkbox */
 .checkmark {
   position: absolute;
   top: 5px;
@@ -471,25 +460,21 @@ footer ul li {
   border-radius: 3px;
 }
 
-/* When the checkbox is checked, add a blue background */
 .modal-checkbox input:checked ~ .checkmark {
   background-color: #ffffff;
 
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
 .modal-checkbox input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the checkmark/indicator */
 .modal-checkbox .checkmark:after {
   left: 4px;
   top: 1px;
