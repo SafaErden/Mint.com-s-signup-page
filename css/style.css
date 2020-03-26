@@ -17,9 +17,11 @@ h3 {
   font-weight: normal;
   font-size: 14px;
 }
+
 header {
   margin-top: 18px;
 }
+
 header.logo-header {
   display: flex;
   justify-content: center;
@@ -84,7 +86,7 @@ header.form-header-content {
 .img-locked {
   height: 0.9em;
   width: 0.8em;
-  margin-top: 0px;
+  margin-top: 0;
   margin-right: 5px;
   vertical-align: text-top;
   display: inline-block;
@@ -107,12 +109,21 @@ header.form-header-content {
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
+
 .sub-logo-list {
   padding-left: 0;
 }
+
+footer ul li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+
 ul.sub-logo-list li {
   display: inline-block;
 }
+
 .logo1-1 {
   width: 23px;
   height: 23px;
@@ -121,6 +132,7 @@ ul.sub-logo-list li {
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
+
 .logo1-2 {
   width: 40px;
   height: 22px;
@@ -129,6 +141,7 @@ ul.sub-logo-list li {
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
+
 .logo2-1 {
   width: 23px;
   height: 23px;
@@ -137,6 +150,7 @@ ul.sub-logo-list li {
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
+
 .logo2-2 {
   width: 100px;
   height: 22px;
@@ -145,6 +159,7 @@ ul.sub-logo-list li {
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
+
 .logo3-1 {
   width: 23px;
   height: 23px;
@@ -153,6 +168,7 @@ ul.sub-logo-list li {
   background-image: url("../media/logos.png");
   text-decoration: none;
 }
+
 .logo3-2 {
   width: 76px;
   height: 23px;
@@ -256,6 +272,7 @@ a.learn-more {
   margin: 20px 20px 0 20px;
   position: relative;
 }
+
 .create-account span {
   background: url(../media/locked.png) no-repeat 0% 50% /13px 16px;
   position: absolute;
@@ -352,10 +369,7 @@ hr {
   color: #646464;
   line-height: 1.5rem;
 }
-.form-info a {
-  text-decoration: none;
-  color: #0077c5;
-}
+
 .form-footer {
   text-align: center;
   font-size: 10px;
@@ -363,30 +377,37 @@ hr {
   background-color: #eceef1;
   padding: 20px 5px 20px 5px;
 }
-.form-footer a {
-  text-decoration: none;
-  color: #0077c5;
-}
+
 footer {
   text-align: center;
   color: #303030;
   font-size: 13px;
   padding: 20px 5px 20px 5px;
 }
+
+.form-info a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.form-footer a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
 footer a {
   text-decoration: none;
 }
+
 .footer-ul {
   display: block;
   padding: 0;
 }
-footer ul li {
-  display: inline;
-  padding: 0 10px 0 10px;
-}
+
 .footer-copyright {
   margin-top: 3px;
 }
+
 .save-button {
   box-shadow: none;
   display: block;
@@ -399,6 +420,7 @@ footer ul li {
   height: 36px;
   font-size: 1rem;
 }
+
 .dismiss-button {
   box-shadow: none;
   display: block;
@@ -417,9 +439,11 @@ footer ul li {
   font-size: 18px;
   line-height: 1.5;
 }
+
 .modal-all-description {
   padding-left: 28px;
 }
+
 .modal-description {
   margin: 0 10px 30px 38px;
   font-size: 14px;
@@ -438,6 +462,7 @@ footer ul li {
   font-size: 22px;
   user-select: none;
 }
+
 .modal-checkbox input {
   position: absolute;
   opacity: 0;
@@ -461,17 +486,17 @@ footer ul li {
   background-color: #fff;
 }
 
-.checkmark:after {
+.checkmark::after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.modal-checkbox input:checked ~ .checkmark:after {
+.modal-checkbox input:checked ~ .checkmark::after {
   display: block;
 }
 
-.modal-checkbox .checkmark:after {
+.modal-checkbox .checkmark::after {
   left: 4px;
   top: 1px;
   width: 3px;
