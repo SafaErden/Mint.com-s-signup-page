@@ -1,6 +1,6 @@
 body {
   background-color: rgb(236, 238, 241);
-  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Arial;
   font-weight: normal;
   min-height: 100vh;
 }
@@ -10,14 +10,12 @@ h1 {
   font-weight: 700;
   line-height: 1.1;
   font-size: 24px;
-  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h3 {
   color: #4c4c4c;
   font-weight: normal;
   font-size: 14px;
-  font-family: Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header{
     margin-top:18px;
@@ -286,21 +284,11 @@ button#PrivacyBtn {
 }
 
 .modal-header {
-    display: block;
-    margin: 5px;
-    width: initial;
-    color: #393a3d;
-    position: static;
-    top: unset;
-    left: unset;
-    padding-left: unset;
-    padding-top: unset;
-    padding-bottom: unset;
-    text-align: center;
-    font-family: inherit;
-    font-size: 2.9rem;
-    font-weight: 700;
-    letter-spacing: 0;
+  margin: 10px;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #393a3d;
 }
 
 .modal {
@@ -308,8 +296,8 @@ button#PrivacyBtn {
   position: fixed;
   z-index: 1;
   padding-top: 100px;
-  padding-left: 12%;
-  width: 75%;
+  padding-left: 11%;
+  width: 80%;
   height: 100%;
   overflow: auto;
 }
@@ -317,8 +305,8 @@ button#PrivacyBtn {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 30px 35px;;
-  width: 70%;
+  padding: 30px 35px;
+  width: 750px;
   border: none;
   border-radius: 10px;
   font-family: inherit;
@@ -405,4 +393,42 @@ footer ul li{
 }
 .footer-copyright{
     margin-top:3px;
+}
+.save-button{
+  box-shadow: none;
+  display: block;
+  border-radius: 4px;
+  border-width: 1px;
+  color: #fff;
+  background-color: #0077c5;
+  position: relative;
+  width: 120px;
+  height: 36px;
+  font-size: 1rem;
+}
+.dismiss-button{
+  box-shadow: none;
+  display: block;
+  border-radius: 4px;
+  border-width: 1px;
+  color: #0077c5;
+  background-color: #eee;
+  position: relative;
+  width: 120px;
+  height: 32px;
+  font-size: 1rem;
+}
+
+.third-party{
+  color: #bababa;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.modal-description{
+  margin:0px 10px 30px 28px;
+  font-size: 14px;
+  max-width: 600px;
+  color: #393a3d;    
+  line-height: 1.5;
+  text-align: left;
 }
