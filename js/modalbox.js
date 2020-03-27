@@ -19,9 +19,6 @@ span2.onclick = function() {
   modal.style.display = "none";
 }
 
-id.onclick = function() {
-  modal.style.display = "none";
-}
 
 window.onclick = function(event) {
   if (event.target == modal) {
