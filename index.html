@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mint.com Signup Page Clone</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Avenir:400,700"/>
+  </head>
+
+  <body>
+    <main>
+      <button id="PrivacyBtn" class="privacy-button">Pivacy Settings</button>
+
+      <div id="ModalBox" class="modal">
+        <div class="modal-content">
+          <header class="modal-header">Privacy Settings</header>
+          <div class="modal-sub-header">
+            We provide you with a way to opt-out of advertising activities on
+            our websites
+          </div>
+          <hr />
+          <div class="modal-all-description">
+            <label class="modal-checkbox">
+              <input type="checkbox" name="modal-label-checkbox" checked />
+              <span class="checkmark"></span>
+              <span class="third-party">Third Party Advertising Vendors</span>
+            </label>
+            <div class="modal-description">
+              We leverage outside service providers who assist us with our
+              marketing and advertising activities. Note: by opting-out of this
+              tracking, you may still see Intuit advertisements, but they may
+              not be tailored to your interests.
+            </div>
+          </div>
+          <div class="modal-buttons">
+            <span class="close">
+              <button class="save-button">Save</button>
+            </span>
+            <span class="close2">
+              <button class="dismiss-button">Dismiss</button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav-container">
+        <div class="nav-column">
+          <div class="have-account">Already have an Intuit account?</div>
+          <a href="#" class="account-recovery-url"
+            >I forgot my User ID or Password</a
+          >
+        </div>
+        <div class="nav-column">
+          <button type="button" name="signin" class="btn-signin">
+            <span class="img-locked"></span>Sign In
+          </button>
+        </div>
+      </nav>
+      <header class="logo-header">
+        <div class="logo-container">
+          <a href="#" class="logo"></a>
+        </div>
+      </header>
+      <div class="sub-logo-container">
+        <header class="sub-logos-header">
+          <div class="sub-logo-container">
+            <ul class="sub-logo-list">
+              <li class="logo1-1"></li>
+              <li class="logo1-2"></li>
+              <li class="logo2-1"></li>
+              <li class="logo2-2"></li>
+              <li class="logo3-1"></li>
+              <li class="logo3-2"></li>
+            </ul>
+          </div>
+        </header>
+      </div>
+      <section class="main-form-box">
+        <div class="form-content">
+          <header class="form-header-content">
+            <h1>Create an Intuit account</h1>
+            <h3>
+              One account for everything Intuit, including Mint.<br /><a
+                class="learn-more"
+                href="#"
+                >Learn More</a
+              >
+            </h3>
+          </header>
+          <form action="#" class="signup-form">
+            <fieldset class="input-set">
+              <label class="label">Email address</label>
+              <input class="input-field" type="email" />
+            </fieldset>
+            <fieldset class="input-set">
+              <label class="label">
+                Phone
+                <span class="recommended-text">(recommended)</span>
+              </label>
+              <input class="input-field" type="tel" />
+              <span class="form-note"
+                >Standard call, messaging or data rates may apply.</span
+              >
+            </fieldset>
+            <fieldset class="input-set">
+              <label class="label">Password</label>
+              <input class="input-field" type="password" />
+              <span class="password-lock"></span>
+            </fieldset>
+            <button class="create-account"><span></span>Create Account</button>
+            <span class="form-info">
+              By clicking Create account, you agree to our <br />
+              <a href="">Terms</a> and have read and acknowledge our
+              <a href="">
+                Privacy <br />
+                Statement.</a
+              >
+            </span>
+          </form>
+          <div class="form-footer">
+            Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and
+            <a href="">Terms of Use.</a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <ul class="footer-ul">
+          <li>Legal</li>
+          <li>Privacy</li>
+          <li>Security</li>
+        </ul>
+        <div class="footer-copyright">
+          © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+          TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+          <br />
+          Terms and conditions, features, support, pricing, and service options
+          subject to change without notice.
+        </div>
+      </footer>
+    </main>
+    <script src="./js/modalbox.js"></script>
+  </body>
+</html>
