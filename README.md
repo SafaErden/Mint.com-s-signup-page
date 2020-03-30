@@ -48,7 +48,7 @@ A replica of Mint.com’s signup page
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/SafaErden/Mint.com-s-signup-page/issues).
 
 ## Show your support
 
