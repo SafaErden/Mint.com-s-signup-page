@@ -14,7 +14,7 @@ HTML & CSS Mint.com’s signup page replica
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SafaErden/Mint.com-s-signup-page/9a05db8d41c26e7459542d2442982adc8eb5604d/index.html)
+[Live Demo Link](https://safaerden.github.io/Mint.com-s-signup-page/)
 
 
 ## Getting Started
